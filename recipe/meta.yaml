@@ -57,6 +57,7 @@ test:
   commands:
     - python -c "import tiledb; tiledb.libtiledb.version()"
     - python -c "import tiledb; assert tiledb.VFS().supports('s3')"
+    - echo "pytest.tiledb_vfs=None" >> tests/conftest.py
     - pytest -s -v --ignore-glob='*_examples.py' --ignore-glob='*_dask.py'
 {% endif %}
 
