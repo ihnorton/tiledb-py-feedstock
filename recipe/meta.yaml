@@ -10,7 +10,7 @@ source:
   #fn: {{ name }}-{{ version }}.tar.gz
   #url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   git_url: https://github.com/ihnorton/TileDB-Py
-  git_rev: 1fba489b84749d57a079aaeb96174356155781fc
+  git_rev: 2dd6044348891227a9cee8d7b95235fd8014c878
   sha256: {{ sha256 }}
 
 build:
