@@ -48,6 +48,7 @@ requirements:
 test:
   requires:
     - hypothesis
+    - pyarrow
     - pytest
     - pandas
     - dataclasses  # [py == 36]
